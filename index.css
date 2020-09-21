@@ -1,0 +1,181 @@
+ *{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+font-family: 'Asap', sans-serif;
+background-color: #fffafa;
+} 
+
+#body-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+#title{
+	margin-top: 100px;
+	color: #008000;
+	font-size: 60px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+#about{
+	font-style: oblique;
+	font-size: 30px;
+	color:#1ce017;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.form1{
+	height: 40px;
+	width: 250px;
+	margin-top: 45px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+}
+.form2{
+	height: 40px;
+	width: 250px;
+	margin-top: 25px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+}
+
+#Login-session{
+	display: flex;
+
+}
+#Login{
+	height: 40px;
+	width: 150px;
+	margin-top: 15px;
+	background-color: #008000;
+	font-size: 15px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+	cursor: pointer;
+	border:none;
+
+}
+#link{
+	text-decoration: none;
+	color: #008000;
+}
+footer{
+	margin-top: 100px;
+	font-size: 20;
+	font-weight: lighter;
+	margin-left: 560px;
+	font-style: oblique;
+}
+
+
+#title2{
+	margin-top: 50px;
+	color: #008000;
+	font-size: 60px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+header{
+	font-style: oblique;
+	font-size: 30px;
+	color:#1ce017;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.form-signup{
+	height: 40px;
+	width: 250px;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+}
+.selector{
+	height: 40px;
+	width: 250px;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+}
+#form-password{
+	height: 40px;
+	width: 250px;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 560px;
+	box-shadow: 1px rgb(222, 320,220);
+}
+
+
+@media only screen and (max-width: 768px){
+	
+#title {
+	text-align: center;
+}
+#about{
+	font-size: 20px;
+	text-align: center;
+}
+
+.form1{
+	margin-left: 100px;
+}
+.form2{
+	margin-left: 100px;
+}
+
+
+#Login{
+	margin-left: 100px;
+}
+
+footer{
+	margin-left: 110px;
+	padding-top: 50px;
+	font-size: 15px;
+}
+
+#title2{
+	text-align: center;
+	margin-top: 60px;
+}
+
+header{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.form-signup{
+	margin-left: 100px;
+}
+
+.selector{
+	margin-left: 100px;
+}
+
+#form-password{
+	margin-left: 100px;
+}
+}
